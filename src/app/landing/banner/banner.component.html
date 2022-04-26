@@ -1,0 +1,28 @@
+<div class="w-100">
+  <div>
+    <img-comparison-slider hover="hover">
+      <img class="w-[100vw] h-[100vh]" style="object-fit: cover" slot="first" src="assets/landing_hr.jpg">
+      <img class="w-[100vw] h-[100vh]" style="object-fit: cover" slot="second" src="assets/landing_lr.jpg"/>
+    </img-comparison-slider>
+
+
+    <article
+      class="bg-gradient-to-r from-[#000000dd] md:w-[840px] w-[100vw] h-[100vh] pr-32 pointer-events-none absolute top-0 left-0 grid content-center">
+      <div class="text-white container pl-32">
+        <div class="flex flex-col">
+          <div class="font-light leading-tight text-5xl">
+            AI Image upscaler delivering enchanced detail and resolution by <strong class="font-bold">200%</strong>
+          </div>
+          <div class="mt-4">Using deep learning to get better image quality by enhancing detail</div>
+          <div class="py-4 flex pointer-events-auto">
+            <div
+              class="rounded outline outline-1 p-2 px-8 font-light hover:bg-white hover:text-black hover:outline-0"
+              (click)="scrollTo('.upload')">
+              Try Now
+            </div>
+          </div>
+        </div>
+      </div>
+    </article>
+  </div>
+</div>
